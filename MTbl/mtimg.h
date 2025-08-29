@@ -1,0 +1,31 @@
+// mtimg.h
+
+#ifndef _INC_MTIMG
+#define _INC_MTIMG
+
+// Flags
+#define MTSI_REDRAW 1
+
+#define MTSI_ALIGN_LEFT 0
+#define MTSI_ALIGN_HCENTER 2
+#define MTSI_ALIGN_RIGHT 4
+
+#define MTSI_ALIGN_VTEXT 0
+#define MTSI_ALIGN_TOP 8
+#define MTSI_ALIGN_VCENTER 16
+#define MTSI_ALIGN_BOTTOM 32
+
+#define MTSI_ALIGN_TILE 64
+
+#define MTSI_NOLEAD_LEFT 128
+#define MTSI_NOLEAD_TOP 256
+
+#define MTSI_NOSELINV 512
+
+#define MTSI_NOTEXTADJ 1024
+
+// Special Handle
+#define MTBL_HIMG_NODEFAULT 4294967295
+
+
+#endif // _INC_MTIMG

@@ -1,0 +1,12 @@
+// btnflags.h
+
+#ifndef _INC_BTNFLAGS
+#define _INC_BTNFLAGS
+
+#define MTBL_BTN_SHARE_FONT					0x00000001
+#define MTBL_BTN_DISABLED					0x00000002
+#define MTBL_BTN_LEFT						0x00000004
+#define MTBL_BTN_FLAT						0x00000008
+#define MTBL_BTN_NO_BKGND					0x00000010
+
+#endif // _INC_BTNFLAGS

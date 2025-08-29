@@ -1,0 +1,1914 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD11--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD11/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP17A.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD1x" /D "TD11" /Fp"Debug_TD11/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD11/" /Fd"Debug_TD11/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP17A.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP17B.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD1x" /D "TD11" /Fp"Debug_TD11/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD11/" /Fd"Debug_TD11/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP17B.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP17C.tmp" mit Inhalten
+[
+mtbl11.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD11/mtblee11.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td11\mtblee11.dll" /implib:"Debug_TD11/mtblee11.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD11" 
+.\Debug_TD11\ctd.obj
+.\Debug_TD11\excel8.obj
+.\Debug_TD11\ExpTblDlgThread.obj
+.\Debug_TD11\lang.obj
+.\Debug_TD11\mtexcexp.obj
+.\Debug_TD11\mtexp.obj
+.\Debug_TD11\mtoocalcexp.obj
+.\Debug_TD11\openoffice.obj
+.\Debug_TD11\StdAfx.obj
+.\Debug_TD11\TblExpDlg.obj
+.\Debug_TD11\winversion.obj
+.\Debug_TD11\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP17C.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD11/mtblee11.lib und Objekt Debug_TD11/mtblee11.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee11.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD15--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD15/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP180.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD1x" /D "TD15" /FR"Debug_TD15/" /Fp"Debug_TD15/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD15/" /Fd"Debug_TD15/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP180.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP181.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD1x" /D "TD15" /FR"Debug_TD15/" /Fp"Debug_TD15/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD15/" /Fd"Debug_TD15/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP181.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP182.tmp" mit Inhalten
+[
+mtbl15.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD15/mtblee15.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td15\mtblee15.dll" /implib:"Debug_TD15/mtblee15.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD15" 
+.\Debug_TD15\ctd.obj
+.\Debug_TD15\excel8.obj
+.\Debug_TD15\ExpTblDlgThread.obj
+.\Debug_TD15\lang.obj
+.\Debug_TD15\mtexcexp.obj
+.\Debug_TD15\mtexp.obj
+.\Debug_TD15\mtoocalcexp.obj
+.\Debug_TD15\openoffice.obj
+.\Debug_TD15\StdAfx.obj
+.\Debug_TD15\TblExpDlg.obj
+.\Debug_TD15\winversion.obj
+.\Debug_TD15\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP182.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD15/mtblee15.lib und Objekt Debug_TD15/mtblee15.exp wird erstellt
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP186.tmp" mit Inhalten
+[
+/nologo /o"Debug_TD15/mtexcexp.bsc" 
+.\Debug_TD15\StdAfx.sbr
+.\Debug_TD15\ctd.sbr
+.\Debug_TD15\excel8.sbr
+.\Debug_TD15\ExpTblDlgThread.sbr
+.\Debug_TD15\lang.sbr
+.\Debug_TD15\mtexcexp.sbr
+.\Debug_TD15\mtexp.sbr
+.\Debug_TD15\mtoocalcexp.sbr
+.\Debug_TD15\openoffice.sbr
+.\Debug_TD15\TblExpDlg.sbr
+.\Debug_TD15\winversion.sbr]
+Erstellen der Befehlzeile "bscmake.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP186.tmp"
+Browse-Informationsdatei wird erstellt...
+<h3>Ausgabefenster</h3>
+
+
+
+<h3>Ergebnisse</h3>
+mtblee15.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD20--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD20/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP187.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD2x" /D "TD20" /Fp"Debug_TD20/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD20/" /Fd"Debug_TD20/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP187.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP188.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD2x" /D "TD20" /Fp"Debug_TD20/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD20/" /Fd"Debug_TD20/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP188.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP189.tmp" mit Inhalten
+[
+mtbl20.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD20/mtblee20.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td20\mtblee20.dll" /implib:"Debug_TD20/mtblee20.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD20" 
+.\Debug_TD20\ctd.obj
+.\Debug_TD20\excel8.obj
+.\Debug_TD20\ExpTblDlgThread.obj
+.\Debug_TD20\lang.obj
+.\Debug_TD20\mtexcexp.obj
+.\Debug_TD20\mtexp.obj
+.\Debug_TD20\mtoocalcexp.obj
+.\Debug_TD20\openoffice.obj
+.\Debug_TD20\StdAfx.obj
+.\Debug_TD20\TblExpDlg.obj
+.\Debug_TD20\winversion.obj
+.\Debug_TD20\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP189.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD20/mtblee20.lib und Objekt Debug_TD20/mtblee20.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee20.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD21--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD21/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP18D.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD2x" /D "TD21" /Fp"Debug_TD21/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD21/" /Fd"Debug_TD21/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP18D.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP18E.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD2x" /D "TD21" /Fp"Debug_TD21/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD21/" /Fd"Debug_TD21/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP18E.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP18F.tmp" mit Inhalten
+[
+mtbl21.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD21/mtblee21.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td21\mtblee21.dll" /implib:"Debug_TD21/mtblee21.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD21" 
+.\Debug_TD21\ctd.obj
+.\Debug_TD21\excel8.obj
+.\Debug_TD21\ExpTblDlgThread.obj
+.\Debug_TD21\lang.obj
+.\Debug_TD21\mtexcexp.obj
+.\Debug_TD21\mtexp.obj
+.\Debug_TD21\mtoocalcexp.obj
+.\Debug_TD21\openoffice.obj
+.\Debug_TD21\StdAfx.obj
+.\Debug_TD21\TblExpDlg.obj
+.\Debug_TD21\winversion.obj
+.\Debug_TD21\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP18F.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD21/mtblee21.lib und Objekt Debug_TD21/mtblee21.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee21.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD30--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD30/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP193.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD3x" /D "TD30" /Fp"Debug_TD30/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD30/" /Fd"Debug_TD30/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP193.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP194.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD3x" /D "TD30" /Fp"Debug_TD30/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD30/" /Fd"Debug_TD30/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP194.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP195.tmp" mit Inhalten
+[
+mtbl30.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD30/mtblee30.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td30\mtblee30.dll" /implib:"Debug_TD30/mtblee30.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD30" 
+.\Debug_TD30\ctd.obj
+.\Debug_TD30\excel8.obj
+.\Debug_TD30\ExpTblDlgThread.obj
+.\Debug_TD30\lang.obj
+.\Debug_TD30\mtexcexp.obj
+.\Debug_TD30\mtexp.obj
+.\Debug_TD30\mtoocalcexp.obj
+.\Debug_TD30\openoffice.obj
+.\Debug_TD30\StdAfx.obj
+.\Debug_TD30\TblExpDlg.obj
+.\Debug_TD30\winversion.obj
+.\Debug_TD30\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP195.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD30/mtblee30.lib und Objekt Debug_TD30/mtblee30.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee30.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD31--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD31/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP199.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD3x" /D "TD31" /Fp"Debug_TD31/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD31/" /Fd"Debug_TD31/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP199.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP19A.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD3x" /D "TD31" /Fp"Debug_TD31/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD31/" /Fd"Debug_TD31/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP19A.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP19B.tmp" mit Inhalten
+[
+mtbl31.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD31/mtblee31.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td31\mtblee31.dll" /implib:"Debug_TD31/mtblee31.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD31" 
+.\Debug_TD31\ctd.obj
+.\Debug_TD31\excel8.obj
+.\Debug_TD31\ExpTblDlgThread.obj
+.\Debug_TD31\lang.obj
+.\Debug_TD31\mtexcexp.obj
+.\Debug_TD31\mtexp.obj
+.\Debug_TD31\mtoocalcexp.obj
+.\Debug_TD31\openoffice.obj
+.\Debug_TD31\StdAfx.obj
+.\Debug_TD31\TblExpDlg.obj
+.\Debug_TD31\winversion.obj
+.\Debug_TD31\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP19B.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD31/mtblee31.lib und Objekt Debug_TD31/mtblee31.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee31.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD40--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD40/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP19F.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD40" /Fp"Debug_TD40/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD40/" /Fd"Debug_TD40/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP19F.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1A0.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD40" /Fp"Debug_TD40/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD40/" /Fd"Debug_TD40/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1A0.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1A1.tmp" mit Inhalten
+[
+mtbl40.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD40/mtblee40.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td40\mtblee40.dll" /implib:"Debug_TD40/mtblee40.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD40" 
+.\Debug_TD40\ctd.obj
+.\Debug_TD40\excel8.obj
+.\Debug_TD40\ExpTblDlgThread.obj
+.\Debug_TD40\lang.obj
+.\Debug_TD40\mtexcexp.obj
+.\Debug_TD40\mtexp.obj
+.\Debug_TD40\mtoocalcexp.obj
+.\Debug_TD40\openoffice.obj
+.\Debug_TD40\StdAfx.obj
+.\Debug_TD40\TblExpDlg.obj
+.\Debug_TD40\winversion.obj
+.\Debug_TD40\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1A1.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD40/mtblee40.lib und Objekt Debug_TD40/mtblee40.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee40.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD41--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD41/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1A5.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD41" /Fp"Debug_TD41/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD41/" /Fd"Debug_TD41/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1A5.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1A6.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD41" /Fp"Debug_TD41/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD41/" /Fd"Debug_TD41/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1A6.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1A7.tmp" mit Inhalten
+[
+mtbl41.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD41/mtblee41.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td41\mtblee41.dll" /implib:"Debug_TD41/mtblee41.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD41" 
+.\Debug_TD41\ctd.obj
+.\Debug_TD41\excel8.obj
+.\Debug_TD41\ExpTblDlgThread.obj
+.\Debug_TD41\lang.obj
+.\Debug_TD41\mtexcexp.obj
+.\Debug_TD41\mtexp.obj
+.\Debug_TD41\mtoocalcexp.obj
+.\Debug_TD41\openoffice.obj
+.\Debug_TD41\StdAfx.obj
+.\Debug_TD41\TblExpDlg.obj
+.\Debug_TD41\winversion.obj
+.\Debug_TD41\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1A7.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD41/mtblee41.lib und Objekt Debug_TD41/mtblee41.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee41.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD42--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD42/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1AB.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD42" /Fp"Debug_TD42/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD42/" /Fd"Debug_TD42/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1AB.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1AC.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD42" /Fp"Debug_TD42/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD42/" /Fd"Debug_TD42/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1AC.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1AD.tmp" mit Inhalten
+[
+mtbl42.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD42/mtblee42.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td42\mtblee42.dll" /implib:"Debug_TD42/mtblee42.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD42" 
+.\Debug_TD42\ctd.obj
+.\Debug_TD42\excel8.obj
+.\Debug_TD42\ExpTblDlgThread.obj
+.\Debug_TD42\lang.obj
+.\Debug_TD42\mtexcexp.obj
+.\Debug_TD42\mtexp.obj
+.\Debug_TD42\mtoocalcexp.obj
+.\Debug_TD42\openoffice.obj
+.\Debug_TD42\StdAfx.obj
+.\Debug_TD42\TblExpDlg.obj
+.\Debug_TD42\winversion.obj
+.\Debug_TD42\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1AD.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD42/mtblee42.lib und Objekt Debug_TD42/mtblee42.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee42.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD51--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD51/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B1.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD5x" /D "TD51" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug_TD51/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD51/" /Fd"Debug_TD51/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B1.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B2.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD5x" /D "TD51" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug_TD51/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD51/" /Fd"Debug_TD51/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B2.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B3.tmp" mit Inhalten
+[
+mtbl51.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD51/mtblee51.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td51\mtblee51.dll" /implib:"Debug_TD51/mtblee51.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD51" 
+.\Debug_TD51\ctd.obj
+.\Debug_TD51\excel8.obj
+.\Debug_TD51\ExpTblDlgThread.obj
+.\Debug_TD51\lang.obj
+.\Debug_TD51\mtexcexp.obj
+.\Debug_TD51\mtexp.obj
+.\Debug_TD51\mtoocalcexp.obj
+.\Debug_TD51\openoffice.obj
+.\Debug_TD51\StdAfx.obj
+.\Debug_TD51\TblExpDlg.obj
+.\Debug_TD51\winversion.obj
+.\Debug_TD51\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B3.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD51/mtblee51.lib und Objekt Debug_TD51/mtblee51.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee51.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD52--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD52/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B7.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD5x" /D "TD52" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug_TD52/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD52/" /Fd"Debug_TD52/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B7.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B8.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD5x" /D "TD52" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug_TD52/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD52/" /Fd"Debug_TD52/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B8.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B9.tmp" mit Inhalten
+[
+mtbl52.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD52/mtblee52.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td52\mtblee52.dll" /implib:"Debug_TD52/mtblee52.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD52" 
+.\Debug_TD52\ctd.obj
+.\Debug_TD52\excel8.obj
+.\Debug_TD52\ExpTblDlgThread.obj
+.\Debug_TD52\lang.obj
+.\Debug_TD52\mtexcexp.obj
+.\Debug_TD52\mtexp.obj
+.\Debug_TD52\mtoocalcexp.obj
+.\Debug_TD52\openoffice.obj
+.\Debug_TD52\StdAfx.obj
+.\Debug_TD52\TblExpDlg.obj
+.\Debug_TD52\winversion.obj
+.\Debug_TD52\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1B9.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD52/mtblee52.lib und Objekt Debug_TD52/mtblee52.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee52.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD60--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD60/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1BD.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD60" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug_TD60/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD60/" /Fd"Debug_TD60/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1BD.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1BE.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD60" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug_TD60/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD60/" /Fd"Debug_TD60/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1BE.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1BF.tmp" mit Inhalten
+[
+mtbl60.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD60/mtblee60.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td60\mtblee60.dll" /implib:"Debug_TD60/mtblee60.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD60" 
+.\Debug_TD60\ctd.obj
+.\Debug_TD60\excel8.obj
+.\Debug_TD60\ExpTblDlgThread.obj
+.\Debug_TD60\lang.obj
+.\Debug_TD60\mtexcexp.obj
+.\Debug_TD60\mtexp.obj
+.\Debug_TD60\mtoocalcexp.obj
+.\Debug_TD60\openoffice.obj
+.\Debug_TD60\StdAfx.obj
+.\Debug_TD60\TblExpDlg.obj
+.\Debug_TD60\winversion.obj
+.\Debug_TD60\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1BF.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD60/mtblee60.lib und Objekt Debug_TD60/mtblee60.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee60.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD61--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug_TD61/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1C3.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD61" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug_TD61/mtexcexp.pch" /YX"stdafx.h" /Fo"Debug_TD61/" /Fd"Debug_TD61/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1C3.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1C4.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD61" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug_TD61/mtexcexp.pch" /Yc"stdafx.h" /Fo"Debug_TD61/" /Fd"Debug_TD61/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1C4.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1C5.tmp" mit Inhalten
+[
+mtbl61.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug_TD61/mtblee61.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td61\mtblee61.dll" /implib:"Debug_TD61/mtblee61.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD61" 
+.\Debug_TD61\ctd.obj
+.\Debug_TD61\excel8.obj
+.\Debug_TD61\ExpTblDlgThread.obj
+.\Debug_TD61\lang.obj
+.\Debug_TD61\mtexcexp.obj
+.\Debug_TD61\mtexp.obj
+.\Debug_TD61\mtoocalcexp.obj
+.\Debug_TD61\openoffice.obj
+.\Debug_TD61\StdAfx.obj
+.\Debug_TD61\TblExpDlg.obj
+.\Debug_TD61\winversion.obj
+.\Debug_TD61\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1C5.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Debug_TD61/mtblee61.lib und Objekt Debug_TD61/mtblee61.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee61.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Debug TD62--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"mtexcexp___Win32_Debug_TD62/mtexcexp.res" /d "_DEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1C9.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD62" /D "_WINDLL" /D "_AFXDLL" /Fp"mtexcexp___Win32_Debug_TD62/mtexcexp.pch" /YX"stdafx.h" /Fo"mtexcexp___Win32_Debug_TD62/" /Fd"mtexcexp___Win32_Debug_TD62/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1C9.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1CA.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD62" /D "_WINDLL" /D "_AFXDLL" /Fp"mtexcexp___Win32_Debug_TD62/mtexcexp.pch" /Yc"stdafx.h" /Fo"mtexcexp___Win32_Debug_TD62/" /Fd"mtexcexp___Win32_Debug_TD62/" /FD /GZ /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1CA.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1CB.tmp" mit Inhalten
+[
+mtbl62.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"mtexcexp___Win32_Debug_TD62/mtblee62.pdb" /debug /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td62\mtblee62.dll" /implib:"mtexcexp___Win32_Debug_TD62/mtblee62.lib" /pdbtype:sept /libpath:"..\MTbl\Debug_TD62" 
+.\mtexcexp___Win32_Debug_TD62\ctd.obj
+.\mtexcexp___Win32_Debug_TD62\excel8.obj
+.\mtexcexp___Win32_Debug_TD62\ExpTblDlgThread.obj
+.\mtexcexp___Win32_Debug_TD62\lang.obj
+.\mtexcexp___Win32_Debug_TD62\mtexcexp.obj
+.\mtexcexp___Win32_Debug_TD62\mtexp.obj
+.\mtexcexp___Win32_Debug_TD62\mtoocalcexp.obj
+.\mtexcexp___Win32_Debug_TD62\openoffice.obj
+.\mtexcexp___Win32_Debug_TD62\StdAfx.obj
+.\mtexcexp___Win32_Debug_TD62\TblExpDlg.obj
+.\mtexcexp___Win32_Debug_TD62\winversion.obj
+.\mtexcexp___Win32_Debug_TD62\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1CB.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::const_iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::iterator' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Node' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+c:\programme\microsoft visual studio\vc98\mfc\include\afxtempl.h(290) : warning C4786: 'std::_Tree<std::pair<long,long>,std::pair<std::pair<long,long> const ,MTBLMERGECELL *>,std::map<std::pair<long,long>,MTBLMERGECELL *,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Kfn,std::less<std::pair<long,long> >,std::allocator<MTBLMERGECELL *> >::_Redbl' : Bezeichner wurde auf '255' Zeichen in den Debug-Informationen verkürzt
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek mtexcexp___Win32_Debug_TD62/mtblee62.lib und Objekt mtexcexp___Win32_Debug_TD62/mtblee62.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee62.dll - 0 Fehler, 5 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD11--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD11/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1CF.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD1x" /D "TD11" /Fp"Release_TD11/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD11/" /Fd"Release_TD11/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1CF.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1D0.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD1x" /D "TD11" /Fp"Release_TD11/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD11/" /Fd"Release_TD11/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1D0.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1D1.tmp" mit Inhalten
+[
+mtbl11.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD11/mtblee11.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td11\mtblee11.dll" /implib:"Release_TD11/mtblee11.lib" /libpath:"..\MTbl\Release_TD11" 
+.\Release_TD11\ctd.obj
+.\Release_TD11\excel8.obj
+.\Release_TD11\ExpTblDlgThread.obj
+.\Release_TD11\lang.obj
+.\Release_TD11\mtexcexp.obj
+.\Release_TD11\mtexp.obj
+.\Release_TD11\mtoocalcexp.obj
+.\Release_TD11\openoffice.obj
+.\Release_TD11\StdAfx.obj
+.\Release_TD11\TblExpDlg.obj
+.\Release_TD11\winversion.obj
+.\Release_TD11\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1D1.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD11/mtblee11.lib und Objekt Release_TD11/mtblee11.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee11.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD15--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD15/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1D5.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD1x" /D "TD15" /Fp"Release_TD15/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD15/" /Fd"Release_TD15/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1D5.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1D6.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD1x" /D "TD15" /Fp"Release_TD15/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD15/" /Fd"Release_TD15/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1D6.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1D7.tmp" mit Inhalten
+[
+mtbl15.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD15/mtblee15.pdb" /machine:I386 /def:".\mtexcexp.def" /force /out:"o:\intern\source\centura\mtbl\td15\mtblee15.dll" /implib:"Release_TD15/mtblee15.lib" /libpath:"..\MTbl\Release_TD15" 
+.\Release_TD15\ctd.obj
+.\Release_TD15\excel8.obj
+.\Release_TD15\ExpTblDlgThread.obj
+.\Release_TD15\lang.obj
+.\Release_TD15\mtexcexp.obj
+.\Release_TD15\mtexp.obj
+.\Release_TD15\mtoocalcexp.obj
+.\Release_TD15\openoffice.obj
+.\Release_TD15\StdAfx.obj
+.\Release_TD15\TblExpDlg.obj
+.\Release_TD15\winversion.obj
+.\Release_TD15\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1D7.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD15/mtblee15.lib und Objekt Release_TD15/mtblee15.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee15.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD20--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD20/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1DB.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD2x" /D "TD20" /Fp"Release_TD20/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD20/" /Fd"Release_TD20/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1DB.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1DC.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD2x" /D "TD20" /Fp"Release_TD20/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD20/" /Fd"Release_TD20/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1DC.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1DD.tmp" mit Inhalten
+[
+mtbl20.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD20/mtblee20.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td20\mtblee20.dll" /implib:"Release_TD20/mtblee20.lib" /libpath:"..\MTbl\Release_TD20" 
+.\Release_TD20\ctd.obj
+.\Release_TD20\excel8.obj
+.\Release_TD20\ExpTblDlgThread.obj
+.\Release_TD20\lang.obj
+.\Release_TD20\mtexcexp.obj
+.\Release_TD20\mtexp.obj
+.\Release_TD20\mtoocalcexp.obj
+.\Release_TD20\openoffice.obj
+.\Release_TD20\StdAfx.obj
+.\Release_TD20\TblExpDlg.obj
+.\Release_TD20\winversion.obj
+.\Release_TD20\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1DD.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD20/mtblee20.lib und Objekt Release_TD20/mtblee20.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee20.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD21--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD21/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1E2.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD2x" /D "TD21" /Fp"Release_TD21/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD21/" /Fd"Release_TD21/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1E2.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1E3.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD2x" /D "TD21" /Fp"Release_TD21/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD21/" /Fd"Release_TD21/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1E3.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1E4.tmp" mit Inhalten
+[
+mtbl21.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD21/mtblee21.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td21\mtblee21.dll" /implib:"Release_TD21/mtblee21.lib" /libpath:"..\MTbl\Release_TD21" 
+.\Release_TD21\ctd.obj
+.\Release_TD21\excel8.obj
+.\Release_TD21\ExpTblDlgThread.obj
+.\Release_TD21\lang.obj
+.\Release_TD21\mtexcexp.obj
+.\Release_TD21\mtexp.obj
+.\Release_TD21\mtoocalcexp.obj
+.\Release_TD21\openoffice.obj
+.\Release_TD21\StdAfx.obj
+.\Release_TD21\TblExpDlg.obj
+.\Release_TD21\winversion.obj
+.\Release_TD21\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1E4.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD21/mtblee21.lib und Objekt Release_TD21/mtblee21.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee21.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD30--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD30/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1E8.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD3x" /D "TD30" /Fp"Release_TD30/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD30/" /Fd"Release_TD30/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1E8.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1E9.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD3x" /D "TD30" /Fp"Release_TD30/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD30/" /Fd"Release_TD30/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1E9.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1EA.tmp" mit Inhalten
+[
+mtbl30.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD30/mtblee30.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td30\mtblee30.dll" /implib:"Release_TD30/mtblee30.lib" /libpath:"..\MTbl\Release_TD30" 
+.\Release_TD30\ctd.obj
+.\Release_TD30\excel8.obj
+.\Release_TD30\ExpTblDlgThread.obj
+.\Release_TD30\lang.obj
+.\Release_TD30\mtexcexp.obj
+.\Release_TD30\mtexp.obj
+.\Release_TD30\mtoocalcexp.obj
+.\Release_TD30\openoffice.obj
+.\Release_TD30\StdAfx.obj
+.\Release_TD30\TblExpDlg.obj
+.\Release_TD30\winversion.obj
+.\Release_TD30\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1EA.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD30/mtblee30.lib und Objekt Release_TD30/mtblee30.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee30.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD31--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD31/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1EE.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD3x" /D "TD31" /Fp"Release_TD31/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD31/" /Fd"Release_TD31/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1EE.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1EF.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD3x" /D "TD31" /Fp"Release_TD31/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD31/" /Fd"Release_TD31/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1EF.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1F0.tmp" mit Inhalten
+[
+mtbl31.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD31/mtblee31.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td31\mtblee31.dll" /implib:"Release_TD31/mtblee31.lib" /libpath:"..\MTbl\Release_TD31" 
+.\Release_TD31\ctd.obj
+.\Release_TD31\excel8.obj
+.\Release_TD31\ExpTblDlgThread.obj
+.\Release_TD31\lang.obj
+.\Release_TD31\mtexcexp.obj
+.\Release_TD31\mtexp.obj
+.\Release_TD31\mtoocalcexp.obj
+.\Release_TD31\openoffice.obj
+.\Release_TD31\StdAfx.obj
+.\Release_TD31\TblExpDlg.obj
+.\Release_TD31\winversion.obj
+.\Release_TD31\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1F0.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD31/mtblee31.lib und Objekt Release_TD31/mtblee31.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee31.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD40--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD40/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1F4.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD40" /Fp"Release_TD40/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD40/" /Fd"Release_TD40/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1F4.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1F5.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD40" /Fp"Release_TD40/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD40/" /Fd"Release_TD40/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1F5.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1F6.tmp" mit Inhalten
+[
+mtbl40.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD40/mtblee40.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td40\mtblee40.dll" /implib:"Release_TD40/mtblee40.lib" /libpath:"..\MTbl\Release_TD40" 
+.\Release_TD40\ctd.obj
+.\Release_TD40\excel8.obj
+.\Release_TD40\ExpTblDlgThread.obj
+.\Release_TD40\lang.obj
+.\Release_TD40\mtexcexp.obj
+.\Release_TD40\mtexp.obj
+.\Release_TD40\mtoocalcexp.obj
+.\Release_TD40\openoffice.obj
+.\Release_TD40\StdAfx.obj
+.\Release_TD40\TblExpDlg.obj
+.\Release_TD40\winversion.obj
+.\Release_TD40\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1F6.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD40/mtblee40.lib und Objekt Release_TD40/mtblee40.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee40.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD41--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD41/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1FA.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD41" /Fp"Release_TD41/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD41/" /Fd"Release_TD41/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1FA.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1FB.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD41" /Fp"Release_TD41/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD41/" /Fd"Release_TD41/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1FB.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1FC.tmp" mit Inhalten
+[
+mtbl41.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD41/mtblee41.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td41\mtblee41.dll" /implib:"Release_TD41/mtblee41.lib" /libpath:"..\MTbl\Release_TD41" 
+.\Release_TD41\ctd.obj
+.\Release_TD41\excel8.obj
+.\Release_TD41\ExpTblDlgThread.obj
+.\Release_TD41\lang.obj
+.\Release_TD41\mtexcexp.obj
+.\Release_TD41\mtexp.obj
+.\Release_TD41\mtoocalcexp.obj
+.\Release_TD41\openoffice.obj
+.\Release_TD41\StdAfx.obj
+.\Release_TD41\TblExpDlg.obj
+.\Release_TD41\winversion.obj
+.\Release_TD41\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP1FC.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD41/mtblee41.lib und Objekt Release_TD41/mtblee41.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee41.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD42--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD42/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP200.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD42" /Fp"Release_TD42/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD42/" /Fd"Release_TD42/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP200.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP201.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "CTD4x" /D "TD42" /Fp"Release_TD42/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD42/" /Fd"Release_TD42/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP201.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP202.tmp" mit Inhalten
+[
+mtbl42.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD42/mtblee42.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td42\mtblee42.dll" /implib:"Release_TD42/mtblee42.lib" /libpath:"..\MTbl\Release_TD42" 
+.\Release_TD42\ctd.obj
+.\Release_TD42\excel8.obj
+.\Release_TD42\ExpTblDlgThread.obj
+.\Release_TD42\lang.obj
+.\Release_TD42\mtexcexp.obj
+.\Release_TD42\mtexp.obj
+.\Release_TD42\mtoocalcexp.obj
+.\Release_TD42\openoffice.obj
+.\Release_TD42\StdAfx.obj
+.\Release_TD42\TblExpDlg.obj
+.\Release_TD42\winversion.obj
+.\Release_TD42\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP202.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD42/mtblee42.lib und Objekt Release_TD42/mtblee42.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee42.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD51--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD51/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP206.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD5x" /D "TD51" /Fp"Release_TD51/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD51/" /Fd"Release_TD51/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP206.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP207.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD5x" /D "TD51" /Fp"Release_TD51/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD51/" /Fd"Release_TD51/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP207.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP208.tmp" mit Inhalten
+[
+mtbl51.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD51/mtblee51.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td51\mtblee51.dll" /implib:"Release_TD51/mtblee51.lib" /libpath:"..\MTbl\Release_TD51" 
+.\Release_TD51\ctd.obj
+.\Release_TD51\excel8.obj
+.\Release_TD51\ExpTblDlgThread.obj
+.\Release_TD51\lang.obj
+.\Release_TD51\mtexcexp.obj
+.\Release_TD51\mtexp.obj
+.\Release_TD51\mtoocalcexp.obj
+.\Release_TD51\openoffice.obj
+.\Release_TD51\StdAfx.obj
+.\Release_TD51\TblExpDlg.obj
+.\Release_TD51\winversion.obj
+.\Release_TD51\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP208.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD51/mtblee51.lib und Objekt Release_TD51/mtblee51.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee51.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD52--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD52/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP20C.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD5x" /D "TD52" /Fp"Release_TD52/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD52/" /Fd"Release_TD52/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP20C.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP20D.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD5x" /D "TD52" /Fp"Release_TD52/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD52/" /Fd"Release_TD52/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP20D.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP20E.tmp" mit Inhalten
+[
+mtbl52.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD52/mtblee52.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td52\mtblee52.dll" /implib:"Release_TD52/mtblee52.lib" /libpath:"..\MTbl\Release_TD52" 
+.\Release_TD52\ctd.obj
+.\Release_TD52\excel8.obj
+.\Release_TD52\ExpTblDlgThread.obj
+.\Release_TD52\lang.obj
+.\Release_TD52\mtexcexp.obj
+.\Release_TD52\mtexp.obj
+.\Release_TD52\mtoocalcexp.obj
+.\Release_TD52\openoffice.obj
+.\Release_TD52\StdAfx.obj
+.\Release_TD52\TblExpDlg.obj
+.\Release_TD52\winversion.obj
+.\Release_TD52\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP20E.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD52/mtblee52.lib und Objekt Release_TD52/mtblee52.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee52.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD60--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD60/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP212.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD60" /Fp"Release_TD60/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD60/" /Fd"Release_TD60/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP212.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP213.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD60" /Fp"Release_TD60/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD60/" /Fd"Release_TD60/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP213.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP214.tmp" mit Inhalten
+[
+mtbl60.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD60/mtblee60.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td60\mtblee60.dll" /implib:"Release_TD60/mtblee60.lib" /libpath:"..\MTbl\Release_TD60" 
+.\Release_TD60\ctd.obj
+.\Release_TD60\excel8.obj
+.\Release_TD60\ExpTblDlgThread.obj
+.\Release_TD60\lang.obj
+.\Release_TD60\mtexcexp.obj
+.\Release_TD60\mtexp.obj
+.\Release_TD60\mtoocalcexp.obj
+.\Release_TD60\openoffice.obj
+.\Release_TD60\StdAfx.obj
+.\Release_TD60\TblExpDlg.obj
+.\Release_TD60\winversion.obj
+.\Release_TD60\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP214.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD60/mtblee60.lib und Objekt Release_TD60/mtblee60.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee60.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD61--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD61/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP218.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD61" /Fp"Release_TD61/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD61/" /Fd"Release_TD61/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP218.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP219.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD61" /Fp"Release_TD61/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD61/" /Fd"Release_TD61/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP219.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP21A.tmp" mit Inhalten
+[
+mtbl61.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD61/mtblee61.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td61\mtblee61.dll" /implib:"Release_TD61/mtblee61.lib" /libpath:"..\MTbl\Release_TD61" 
+.\Release_TD61\ctd.obj
+.\Release_TD61\excel8.obj
+.\Release_TD61\ExpTblDlgThread.obj
+.\Release_TD61\lang.obj
+.\Release_TD61\mtexcexp.obj
+.\Release_TD61\mtexp.obj
+.\Release_TD61\mtoocalcexp.obj
+.\Release_TD61\openoffice.obj
+.\Release_TD61\StdAfx.obj
+.\Release_TD61\TblExpDlg.obj
+.\Release_TD61\winversion.obj
+.\Release_TD61\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP21A.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD61/mtblee61.lib und Objekt Release_TD61/mtblee61.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee61.dll - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: mtexcexp - Win32 Release TD62--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release_TD62/mtexcexp.res" /d "NDEBUG" /d "_AFXDLL" "O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP21E.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD62" /Fp"Release_TD62/mtexcexp.pch" /YX"stdafx.h" /Fo"Release_TD62/" /Fd"Release_TD62/" /FD /c 
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\excel8.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\ExpTblDlgThread.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\lang.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\mtoocalcexp.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\openoffice.cpp"
+"O:\Intern\Source\VC\Projects\mtexcexp\TblExpDlg.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP21E.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP21F.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "..\ctd" /I "..\winversion" /I "..\export" /I "..\MTbl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "CTD6x" /D "TD62" /Fp"Release_TD62/mtexcexp.pch" /Yc"stdafx.h" /Fo"Release_TD62/" /Fd"Release_TD62/" /FD /c 
+"O:\Intern\Source\VC\Projects\mtexcexp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP21F.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP220.tmp" mit Inhalten
+[
+mtbl62.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release_TD62/mtblee62.pdb" /machine:I386 /def:".\mtexcexp.def" /out:"o:\intern\source\centura\mtbl\td62\mtblee62.dll" /implib:"Release_TD62/mtblee62.lib" /libpath:"..\MTbl\Release_TD62" 
+.\Release_TD62\ctd.obj
+.\Release_TD62\excel8.obj
+.\Release_TD62\ExpTblDlgThread.obj
+.\Release_TD62\lang.obj
+.\Release_TD62\mtexcexp.obj
+.\Release_TD62\mtexp.obj
+.\Release_TD62\mtoocalcexp.obj
+.\Release_TD62\openoffice.obj
+.\Release_TD62\StdAfx.obj
+.\Release_TD62\TblExpDlg.obj
+.\Release_TD62\winversion.obj
+.\Release_TD62\mtexcexp.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\stollm\LOKALE~1\Temp\RSP220.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ctd.cpp
+excel8.cpp
+ExpTblDlgThread.cpp
+lang.cpp
+mtexcexp.cpp
+mtexp.cpp
+mtoocalcexp.cpp
+openoffice.cpp
+TblExpDlg.cpp
+winversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release_TD62/mtblee62.lib und Objekt Release_TD62/mtblee62.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+mtblee62.dll - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

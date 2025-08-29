@@ -1,0 +1,10 @@
+// colhdrflags.h
+// Column header flags
+
+#ifndef _INC_COLHDRFLAGS
+#define _INC_COLHDRFLAGS
+
+#define MTBL_COLHDR_FLAG_TXTALIGN_LEFT	0x00000001
+#define MTBL_COLHDR_FLAG_TXTALIGN_RIGHT	0x00000002
+
+#endif // _INC_COLHDRFLAGS

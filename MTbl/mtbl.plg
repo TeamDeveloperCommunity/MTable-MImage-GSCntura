@@ -1,0 +1,160 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: mtbl - Win32 Release TD63--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"mtbl___Win32_Release_TD63/res.res" /d "NDEBUG" "O:\Intern\Source\VC\Projects\mtbl\res.rc"" 
+Erstellen der temporären Datei  "C:\Users\stollm\AppData\Local\Temp\RSPD8B7.tmp" mit Inhalten
+[
+/nologo /MT /W3 /GX /O2 /I "..\ctd" /I "..\vis" /I "..\alphawnd" /I "..\MImg" /I "..\winversion" /I "..\theme" /I "..\fileversion" /I "..\tstring" /I "..\export" /I "..\apihook" /I "..\gradrect" /D "NDEBUG" /D "CTD6x" /D "TD63" /D "USE_APIHOOK" /D "MSGFUNCS_USED" /D "WIN32" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /FR"mtbl___Win32_Release_TD63/" /Fo"mtbl___Win32_Release_TD63/" /Fd"mtbl___Win32_Release_TD63/" /FD /c 
+"O:\Intern\Source\VC\Projects\apihook\apihook.cpp"
+"O:\Intern\Source\VC\Projects\alphawnd\calphawnd.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\ccurcols.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblbtn.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblcelltype.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblcol.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblcolhdrgrp.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblcolhdrgrps.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblcolor.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblcols.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblcoltag.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblcounter.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblfont.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblhylnk.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblimg.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblmetrics.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblrow.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblrows.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtblsortval.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\cmtbltip.cpp"
+"O:\Intern\Source\VC\Projects\ctd\ctd.cpp"
+"O:\Intern\Source\VC\Projects\theme\ctheme.cpp"
+"O:\Intern\Source\VC\Projects\gradrect\gradrect.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\merge.cpp"
+"O:\Intern\Source\VC\Projects\mtbl\mtbl.cpp"
+"O:\Intern\Source\VC\Projects\vis\vis.cpp"
+"O:\Intern\Source\VC\Projects\winversion\winversion.cpp"
+]
+Creating command line "cl.exe @C:\Users\stollm\AppData\Local\Temp\RSPD8B7.tmp" 
+Erstellen der temporären Datei  "C:\Users\stollm\AppData\Local\Temp\RSPD8B8.tmp" mit Inhalten
+[
+/nologo /MT /W3 /GX /O2 /I "..\ctd" /I "..\vis" /I "..\alphawnd" /I "..\MImg" /I "..\winversion" /I "..\theme" /I "..\fileversion" /I "..\tstring" /I "..\export" /I "..\gradrect" /I "..\diagassert" /D "NDEBUG" /D "CTD6x" /D "TD63" /D "USE_APIHOOK" /D "MSGFUNCS_USED" /D "WIN32" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /FR"mtbl___Win32_Release_TD63/" /Fo"mtbl___Win32_Release_TD63/" /Fd"mtbl___Win32_Release_TD63/" /FD /c 
+"O:\Intern\Source\VC\Projects\fileversion\fileversion.cpp"
+]
+Creating command line "cl.exe @C:\Users\stollm\AppData\Local\Temp\RSPD8B8.tmp" 
+Erstellen der temporären Datei  "C:\Users\stollm\AppData\Local\Temp\RSPD8B9.tmp" mit Inhalten
+[
+mimg63.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib version.lib msimg32.lib /nologo /dll /incremental:no /pdb:"mtbl___Win32_Release_TD63/mtbl63.pdb" /machine:I386 /def:".\mtbl.def" /out:"o:\intern\source\centura\mtbl\td63\mtbl63.dll" /implib:"mtbl___Win32_Release_TD63/mtbl63.lib" /libpath:"..\MImg\Release_TD63" 
+.\mtbl___Win32_Release_TD63\apihook.obj
+.\mtbl___Win32_Release_TD63\calphawnd.obj
+.\mtbl___Win32_Release_TD63\ccurcols.obj
+.\mtbl___Win32_Release_TD63\cmtblbtn.obj
+.\mtbl___Win32_Release_TD63\cmtblcelltype.obj
+.\mtbl___Win32_Release_TD63\cmtblcol.obj
+.\mtbl___Win32_Release_TD63\cmtblcolhdrgrp.obj
+.\mtbl___Win32_Release_TD63\cmtblcolhdrgrps.obj
+.\mtbl___Win32_Release_TD63\cmtblcolor.obj
+.\mtbl___Win32_Release_TD63\cmtblcols.obj
+.\mtbl___Win32_Release_TD63\cmtblcoltag.obj
+.\mtbl___Win32_Release_TD63\cmtblcounter.obj
+.\mtbl___Win32_Release_TD63\cmtblfont.obj
+.\mtbl___Win32_Release_TD63\cmtblhylnk.obj
+.\mtbl___Win32_Release_TD63\cmtblimg.obj
+.\mtbl___Win32_Release_TD63\cmtblmetrics.obj
+.\mtbl___Win32_Release_TD63\cmtblrow.obj
+.\mtbl___Win32_Release_TD63\cmtblrows.obj
+.\mtbl___Win32_Release_TD63\cmtblsortval.obj
+.\mtbl___Win32_Release_TD63\cmtbltip.obj
+.\mtbl___Win32_Release_TD63\ctd.obj
+.\mtbl___Win32_Release_TD63\ctheme.obj
+.\mtbl___Win32_Release_TD63\fileversion.obj
+.\mtbl___Win32_Release_TD63\gradrect.obj
+.\mtbl___Win32_Release_TD63\merge.obj
+.\mtbl___Win32_Release_TD63\mtbl.obj
+.\mtbl___Win32_Release_TD63\vis.obj
+.\mtbl___Win32_Release_TD63\winversion.obj
+.\mtbl___Win32_Release_TD63\res.res
+]
+Erstellen der Befehlzeile "link.exe @C:\Users\stollm\AppData\Local\Temp\RSPD8B9.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+apihook.cpp
+calphawnd.cpp
+ccurcols.cpp
+cmtblbtn.cpp
+cmtblcelltype.cpp
+cmtblcol.cpp
+cmtblcolhdrgrp.cpp
+cmtblcolhdrgrps.cpp
+cmtblcolor.cpp
+cmtblcols.cpp
+cmtblcoltag.cpp
+cmtblcounter.cpp
+cmtblfont.cpp
+cmtblhylnk.cpp
+cmtblimg.cpp
+cmtblmetrics.cpp
+cmtblrow.cpp
+cmtblrows.cpp
+cmtblsortval.cpp
+cmtbltip.cpp
+Generieren von Code...
+Kompilieren...
+ctd.cpp
+ctheme.cpp
+gradrect.cpp
+merge.cpp
+mtbl.cpp
+vis.cpp
+winversion.cpp
+Generieren von Code...
+Kompilierung läuft...
+fileversion.cpp
+Linker-Vorgang läuft...
+   Bibliothek mtbl___Win32_Release_TD63/mtbl63.lib und Objekt mtbl___Win32_Release_TD63/mtbl63.exp wird erstellt
+Erstellen der temporären Datei  "C:\Users\stollm\AppData\Local\Temp\RSP3598.tmp" mit Inhalten
+[
+/nologo /o"mtbl___Win32_Release_TD63/mtbl.bsc" 
+.\mtbl___Win32_Release_TD63\apihook.sbr
+.\mtbl___Win32_Release_TD63\calphawnd.sbr
+.\mtbl___Win32_Release_TD63\ccurcols.sbr
+.\mtbl___Win32_Release_TD63\cmtblbtn.sbr
+.\mtbl___Win32_Release_TD63\cmtblcelltype.sbr
+.\mtbl___Win32_Release_TD63\cmtblcol.sbr
+.\mtbl___Win32_Release_TD63\cmtblcolhdrgrp.sbr
+.\mtbl___Win32_Release_TD63\cmtblcolhdrgrps.sbr
+.\mtbl___Win32_Release_TD63\cmtblcolor.sbr
+.\mtbl___Win32_Release_TD63\cmtblcols.sbr
+.\mtbl___Win32_Release_TD63\cmtblcoltag.sbr
+.\mtbl___Win32_Release_TD63\cmtblcounter.sbr
+.\mtbl___Win32_Release_TD63\cmtblfont.sbr
+.\mtbl___Win32_Release_TD63\cmtblhylnk.sbr
+.\mtbl___Win32_Release_TD63\cmtblimg.sbr
+.\mtbl___Win32_Release_TD63\cmtblmetrics.sbr
+.\mtbl___Win32_Release_TD63\cmtblrow.sbr
+.\mtbl___Win32_Release_TD63\cmtblrows.sbr
+.\mtbl___Win32_Release_TD63\cmtblsortval.sbr
+.\mtbl___Win32_Release_TD63\cmtbltip.sbr
+.\mtbl___Win32_Release_TD63\ctd.sbr
+.\mtbl___Win32_Release_TD63\ctheme.sbr
+.\mtbl___Win32_Release_TD63\fileversion.sbr
+.\mtbl___Win32_Release_TD63\gradrect.sbr
+.\mtbl___Win32_Release_TD63\merge.sbr
+.\mtbl___Win32_Release_TD63\mtbl.sbr
+.\mtbl___Win32_Release_TD63\vis.sbr
+.\mtbl___Win32_Release_TD63\winversion.sbr]
+Erstellen der Befehlzeile "bscmake.exe @C:\Users\stollm\AppData\Local\Temp\RSP3598.tmp"
+Browse-Informationsdatei wird erstellt...
+<h3>Ausgabefenster</h3>
+
+
+
+<h3>Ergebnisse</h3>
+mtbl63.dll - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

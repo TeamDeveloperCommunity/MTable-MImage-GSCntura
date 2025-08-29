@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quellcodedateien">
+      <UniqueIdentifier>{d9833c57-5aed-439e-9366-6b79c2f4158e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header-Dateien">
+      <UniqueIdentifier>{24f7ef79-4e83-4d96-828e-c0fc3103b70f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header-Dateien\CXImage">
+      <UniqueIdentifier>{464486eb-0c8d-4e51-a723-8adbefb6f895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{ed625986-40cf-46b4-a368-9d319b4a0d4c}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CMImg.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmimgctl.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CMImgDefPal.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CMImgMan.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ctd\ctd.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MImg.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vis\vis.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CXImgLib\CxImage\xfile.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximabmp.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximadefs.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximage.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximagif.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximaico.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximaiter.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximaj2k.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximajbg.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximajpg.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximamng.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximapcx.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximapng.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximatga.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximatif.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximawbmp.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\ximawmf.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\xiofile.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CXImgLib\CxImage\xmemfile.h">
+      <Filter>Header-Dateien\CXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CMImg.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CMImgCtl.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CMImgDefPal.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CMImgMan.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ctd\ctd.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MImg.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MImgApi.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MImgConst.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tstring\tstring.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vis\vis.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MImg.def">
+      <Filter>Quellcodedateien</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

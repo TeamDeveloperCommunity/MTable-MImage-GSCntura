@@ -1,0 +1,43 @@
+;GSCNTURA.DEF
+LIBRARY GSCNTURA
+;DESCRIPTION "Team Developer Interface DLL to Graphics Server"
+EXPORTS
+	AGAmpCTD				@13
+	AGAmpErrorCTD			@26
+	AGAuxCTD				@14
+	AGClrCTD				@15
+	AGDataLabelsCTD			@33
+	AGDataZCTD				@32
+	AGDistCTD				@16
+	AGDistErrorCTD			@27
+	AGFFTCTD				@28
+	AGLabelsCTD				@17
+	AGLabelYCTD				@30
+	AGLabelZCTD				@31
+	AGLegendCTD				@18
+	AGMissingLineStyleCTD	@35
+	AGPattCTD				@19
+	AGSymCTD				@20
+	AGTimeUpdateCTD			@29
+	AGTrendDataSetCTD		@36
+
+	GSDataAmpCTD			@1
+	GSDataAmpErrCTD			@22
+	GSDataAuxCTD			@2
+	GSDataClrCTD			@3
+	GSDataDistCTD			@4
+	GSDataDistErrCTD		@23
+	GSDataLabelsCTD			@25
+	GSDataPattCTD			@5
+	GSDataSymCTD			@6
+	GSDataTransCTD			@7
+	GSDataZCTD				@21
+	GSDefPattCTD			@8
+	GSLabelPieCTD			@9
+	GSLabelXCTD				@10
+	GSLabelYCTD				@11
+	GSLegendCTD				@12
+	GSMissingLineStyleCTD	@34
+	GSTimeUpdateCTD			@24
+	GSWriteRegionFileCTD	@37
+

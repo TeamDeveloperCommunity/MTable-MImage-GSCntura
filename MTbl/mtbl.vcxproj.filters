@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quellcode-Dateien">
+      <UniqueIdentifier>{c243cc4f-e6ea-484c-a928-7efdf2fd4729}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Header-Dateien">
+      <UniqueIdentifier>{e48907b8-82eb-4839-9f83-7d79e59aa356}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Ressourcen-Scripts">
+      <UniqueIdentifier>{4c95efdd-efaf-48de-a616-3bfe8d616f3a}</UniqueIdentifier>
+      <Extensions>*.rc</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\apihook\apihook.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alphawnd\calphawnd.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ccurcols.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblbtn.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblcelltype.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblcol.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblcolhdrgrp.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblcolhdrgrps.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblcolor.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblcols.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblcoltag.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblcounter.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblfont.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblhylnk.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblimg.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblmetrics.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblrow.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblrows.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblsortval.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtbltip.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ctd\ctd.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\theme\ctheme.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fileversion\fileversion.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gradrect\gradrect.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="merge.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="mtbl.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vis\vis.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\winversion\winversion.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="mtblprint.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="mtblsubclass.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="lines.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtblitem.cpp">
+      <Filter>Quellcode-Dateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\apihook\apihook.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="btnflags.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alphawnd\calphawnd.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ccurcols.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cellflags.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cellmodeflags.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="chgflags.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblbtn.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblcelltype.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblcol.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblcolhdrgrp.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblcolhdrgrps.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblcolor.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblcols.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblcoltag.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblcounter.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblfont.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblhylnk.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblimg.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblmetrics.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblrow.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblrows.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblsortval.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtbltip.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="colflags.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="colhdrflags.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ctd\ctd.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\theme\ctheme.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\export\export.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fileversion\fileversion.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gradrect\gradrect.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="merge.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MImg\MImgApi.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="mtbl.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="mtblapi.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="mtimg.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="rowflags.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tblflags.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tipflags.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="treeflags.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tstring\tstring.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vis\vis.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\winversion\winversion.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="mtblprint.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="mtblsubclass.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="lines.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtblitem.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res.rc">
+      <Filter>Ressourcen-Scripts</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ico00001.ico" />
+    <Image Include="ico00002.ico" />
+    <Image Include="icon1.ico" />
+    <Image Include="rfl_del.bmp" />
+    <Image Include="rfl_edit.bmp" />
+    <Image Include="rfl_new.bmp" />
+    <Image Include="bitmap1.bmp" />
+    <Image Include="bitmap2.bmp" />
+    <Image Include="toolbar1.bmp" />
+    <Image Include="close.ico" />
+    <Image Include="exit.bmp" />
+    <Image Include="pptb.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="hand.cur" />
+    <CustomBuild Include="mtbl.def" />
+    <CustomBuild Include="NORMAL03.CUR" />
+    <CustomBuild Include="tabli15_10011.cur" />
+  </ItemGroup>
+</Project>

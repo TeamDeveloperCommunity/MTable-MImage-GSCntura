@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gscntura", "gscntura.vcxproj", "{C7982429-7AAF-4F49-816C-2E440508DB14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug TD15|Win32 = Debug TD15|Win32
+		Release TD11|Win32 = Release TD11|Win32
+		Release TD15|Win32 = Release TD15|Win32
+		Release TD20|Win32 = Release TD20|Win32
+		Release TD21|Win32 = Release TD21|Win32
+		Release TD30|Win32 = Release TD30|Win32
+		Release TD31|Win32 = Release TD31|Win32
+		Release TD40|Win32 = Release TD40|Win32
+		Release TD41|Win32 = Release TD41|Win32
+		Release TD42|Win32 = Release TD42|Win32
+		Release TD51|Win32 = Release TD51|Win32
+		Release TD52|Win32 = Release TD52|Win32
+		Release TD60|Win32 = Release TD60|Win32
+		Release TD61|Win32 = Release TD61|Win32
+		Release TD62|Win32 = Release TD62|Win32
+		Release TD63|Win32 = Release TD63|Win32
+		Release TD70|Win32 = Release TD70|Win32
+		Release TD71|Win32 = Release TD71|Win32
+		Release TD72|Win32 = Release TD72|Win32
+		Release TD73|Win32 = Release TD73|Win32
+		Release TD74|Win32 = Release TD74|Win32
+		Release TD75|Win32 = Release TD75|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Debug TD15|Win32.ActiveCfg = Debug TD15|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Debug TD15|Win32.Build.0 = Debug TD15|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD11|Win32.ActiveCfg = Release TD11|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD11|Win32.Build.0 = Release TD11|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD15|Win32.ActiveCfg = Release TD15|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD15|Win32.Build.0 = Release TD15|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD20|Win32.ActiveCfg = Release TD20|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD20|Win32.Build.0 = Release TD20|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD21|Win32.ActiveCfg = Release TD21|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD21|Win32.Build.0 = Release TD21|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD30|Win32.ActiveCfg = Release TD30|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD30|Win32.Build.0 = Release TD30|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD31|Win32.ActiveCfg = Release TD31|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD31|Win32.Build.0 = Release TD31|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD40|Win32.ActiveCfg = Release TD40|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD40|Win32.Build.0 = Release TD40|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD41|Win32.ActiveCfg = Release TD41|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD41|Win32.Build.0 = Release TD41|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD42|Win32.ActiveCfg = Release TD42|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD42|Win32.Build.0 = Release TD42|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD51|Win32.ActiveCfg = Release TD51|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD51|Win32.Build.0 = Release TD51|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD52|Win32.ActiveCfg = Release TD52|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD52|Win32.Build.0 = Release TD52|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD60|Win32.ActiveCfg = Release TD60|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD60|Win32.Build.0 = Release TD60|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD61|Win32.ActiveCfg = Release TD61|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD61|Win32.Build.0 = Release TD61|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD62|Win32.ActiveCfg = Release TD62|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD62|Win32.Build.0 = Release TD62|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD63|Win32.ActiveCfg = Release TD63|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD63|Win32.Build.0 = Release TD63|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD70|Win32.ActiveCfg = Release TD70|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD70|Win32.Build.0 = Release TD70|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD71|Win32.ActiveCfg = Release TD71|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD71|Win32.Build.0 = Release TD71|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD72|Win32.ActiveCfg = Release TD72|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD72|Win32.Build.0 = Release TD72|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD73|Win32.ActiveCfg = Release TD73|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD73|Win32.Build.0 = Release TD73|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD74|Win32.ActiveCfg = Release TD74|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD74|Win32.Build.0 = Release TD74|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD75|Win32.ActiveCfg = Release TD75|Win32
+		{C7982429-7AAF-4F49-816C-2E440508DB14}.Release TD75|Win32.Build.0 = Release TD75|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+; mtexcexp.def : Deklariert die Modul-Parameter für die DLL.
+
+;LIBRARY      "mtblee"
+;DESCRIPTION  'M!Table Export Module'
+EXPORTS
+	MTblExportToExcel					@1
+	MTblExportToOOCalc					@2
+	MTblExportToExcelEx					@3
