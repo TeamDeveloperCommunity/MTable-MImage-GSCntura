@@ -1,0 +1,6 @@
+* text=auto
+# Binärdateien
+*.png binary
+*.jpg binary
+*.ico binary
+*.cur binary
