@@ -44,6 +44,8 @@ Unicode Release*/
 *.tmp
 *.exp
 *.lib
+!gswag32.lib
+!gswdll32.lib
 *.dll
 *.exe
 *.manifest
@@ -81,9 +83,3 @@ $RECYCLE.BIN/
 *.msm
 *.cab
 *.iso
-
-# --- Ordner, die nichts mit den Team Developer Erweiterungen zu tun haben
-MWnd/
-Ois/
-qtab/
-SendMail/

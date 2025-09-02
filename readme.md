@@ -23,49 +23,49 @@ Download: https://www.helpndoc.com/de/download/
 ## Relevant folders
 
 ### M!Table
-* **MTbl**: Main project folder -> mtblXX.dll
-* **MTblDoc/HelpNDoc**: HelpNDoc Documentation Project
-* **MTblDoc/html**: Documentation in HTML format
-* **MTblDoc/chm**: Documentation as CHM file
-* **MTblLang**: Language files
-* **MImg**: M!Image API header
-* **ctd**: Team Developer Interface
-* **vis**: Visual Toolchest Interface
-* **apihook**: API Hook
-* **alphawnd**: Window transparency
-* **winversion**: Windows version
-* **theme**: Windows Themes
-* **fileversion**: File version
-* **gradrect**: Gradient rectangle
-* **tstring**: STL TCHAR string
-* **export**: Excel Export constants
+* **vc/mtbl**: Main project folder -> mtblXX.dll
+* **doc/mtbl/helpndoc**: HelpNDoc Documentation Project
+* **doc/mtbl/html**: Documentation in HTML format
+* **doc/mtbl/chm**: Documentation as CHM file
+* **lang/mtbl**: Language files
+* **vc/mimg**: M!Image API header
+* **vc/ctd**: Team Developer Interface
+* **vc/vis**: Visual Toolchest Interface
+* **vc/apihook**: API Hook
+* **vc/alphawnd**: Window transparency
+* **vc/winversion**: Windows version
+* **vc/theme**: Windows Themes
+* **vc/fileversion**: File version
+* **vc/gradrect**: Gradient rectangle
+* **vc/tstring**: STL TCHAR string
+* **vc/export**: Excel Export constants
 
 ### CxImage
-* **CxImageLib**: Main project folder -> cximage.lib, jbig.lib, jpeg.lib png.lib, tiff.lib, zlib.lib
+* **vc/cximglib**: Main project folder -> cximage.lib, jbig.lib, jpeg.lib png.lib, tiff.lib, zlib.lib
 
 ### M!Image
-* **MImg**: Main project folder -> mimgXX.dll
-* **MImgDoc/HelpNDoc**: HelpNDoc Documentation Project
-* **MImgDoc/html**: Documentation in HTML format
-* **MImgDoc/chm**: Documentation as CHM file
-* **ctd**: Team Developer Interface
-* **vis**: Visual Toolchest Interface
-* **swcc**: TD Custom Control Interface
-* **tstring**: STL TCHAR string
+* **vc/mimg**: Main project folder -> mimgXX.dll
+* **doc/mimg/helpndoc**: HelpNDoc Documentation Project
+* **doc/mimg/html**: Documentation in HTML format
+* **doc/mimg/chm**: Documentation as CHM file
+* **vc/ctd**: Team Developer Interface
+* **vc/vis**: Visual Toolchest Interface
+* **vc/swcc**: TD Custom Control Interface
+* **vc/tstring**: STL TCHAR string
 
 ### M!Table Excel Export
-* **MTExcExp**: Main project folder -> mtbleeXX.dll
-* **MImg**: M!Image API header
-* **MTbl**: M!Table API header
-* **ctd**: Team Developer Interface
-* **winversion**: Windows version
-* **export**: Excel Export constants
+* **vc/mtblee**: Main project folder -> mtbleeXX.dll
+* **vc/mimg**: M!Image API header
+* **vc/mtbl**: M!Table API header
+* **vc/ctd**: Team Developer Interface
+* **vc/winversion**: Windows version
+* **vc/export**: Excel Export constants
 
 ### GSCntura
-* **GSCntura**: Main project folder -> gscntura.dll
-* **gsw**: Graphics Server Interface
-* **ctd**: Team Developer Interface
-* **tstring**: STL TCHAR string
+* **vc/gscntura**: Main project folder -> gscntura.dll
+* **vc/gsw**: Graphics Server Interface
+* **vc/ctd**: Team Developer Interface
+* **vc/tstring**: STL TCHAR string
 
 ## Dependencies among each other
 * **M!Image** depends on CxImageLib
