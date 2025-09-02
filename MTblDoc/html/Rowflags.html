@@ -1,0 +1,458 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 9.9.0.637">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Row flags</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="MTBL_ROW_CANEXPAND,MTBL_ROW_CLIP_NONEDIT,MTBL_ROW_EDITALIGN_CENTER,MTBL_ROW_EDITALIGN_LEFT,MTBL_ROW_EDITALIGN_RIGHT,MTBL_ROW_ISEXPANDED,MTBL_ROW_NOSELINV_BKGND,MTBL_ROW_NOSELINV_IMAGE,MTBL_ROW_NOSELINV_TEXT,MTBL_ROW_NO_COLLINES,MTBL_ROW_NO_ROWLINE,MTBL_ROW_NO_SORT,MTBL_ROW_PAGEBREAK,MTBL_ROW_READ_ONLY,MTBL_ROW_TXTALIGN_BOTTOM,MTBL_ROW_TXTALIGN_CENTER,MTBL_ROW_TXTALIGN_LEFT,MTBL_ROW_TXTALIGN_RIGHT,MTBL_ROW_TXTALIGN_TOP,MTBL_ROW_TXTALIGN_VCENTER,MTBL_ROW_AUTOSIZE_EDIT,MTBL_ROW_HIDDEN,MTBL_ROW_BLOCK_BEGIN,MTBL_ROW_BLOCK_END">
+
+
+
+  
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Row flags">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Row flags" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="M!Table 3.5.0 Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>M!Table 3.5.0 Help</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close" role="presentation"> 
+        <button class="hnd-toggle btn btn-default" aria-label="close">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." aria-label="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit" aria-label="Search...">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="Rowflags"
+		  data-hnd-context="432"
+		  data-hnd-title="Row flags"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li>Appendix</li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="Mousewheeloptions.html" title="Mousewheel options" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="Sortflags.html" title="Sort flags" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Row flags</h2>
+
+            <div class="main-content">
+                
+<p class="rvps5"><span class="rvts15">Row flags</span></p>
+<div class="rvps4">
+<table width="600" style="border-style: outset; border-width: 1px; border-collapse: collapse;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_AUTOSIZE_EDIT</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">In editing mode, the size of the edit control of the row's cells are automatically adapted.</span></p>
+   <p class="rvps2"><span class="rvts17">See also: </span><a class="rvts19" href="Automaticeditsizingandpositionin.html">Automatic edit sizing and positioning</a></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px; height: 163px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_CANEXPAND</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px; height: 163px;">
+   <p class="rvps9"><span class="rvts17">This row flag indicates that a row can be expanded.</span><br/><span class="rvts17">When a row has this flag, then the node is shown ( if a "tree column" is defined and the node size &gt; 0 ) and the user can expand or collapse the row.</span><br/><span class="rvts17">When not, then no node is shown and the user can't expand or collapse the row.</span><br/><span class="rvts17">M!Table automatically sets it when the row becomes a parent row.</span><br/><span class="rvts17">M!Table automatically clears it when the row is expanded and has no child rows.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Treeview.html">Tree view</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_BLOCK_BEGIN</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">Begin of a row block.</span></p>
+   <p class="rvps2"><span class="rvts17">M!Table tries to print all rows of a block on one page.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Printing.html">Printing</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_BLOCK_END</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">End of a row block.</span></p>
+   <p class="rvps2"><span class="rvts17">M!Table tries to print all rows of a block on one page.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Printing.html">Printing</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_CLIP_NONEDIT</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">In editing mode, the nonedit area ( e.g. an image ) of the row's cells are clipped and remain visible.</span></p>
+   <p class="rvps2"><span class="rvts17">See also: </span><a class="rvts19" href="Automaticeditsizingandpositionin.html">Automatic edit sizing and positioning</a></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_EDITALIGN_CENTER</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The edits of the row's cells are centered.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedtextalignment.html">Extended text alignment</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_EDITALIGN_LEFT</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The edits of the row's cells are left aligned.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedtextalignment.html">Extended text alignment</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_EDITALIGN_RIGHT</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The edits of the row's cells are right aligned.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedtextalignment.html">Extended text alignment</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_ISEXPANDED</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">This row flag indicates that a row is expanded.</span><br/><span class="rvts17">When a row has this flag, then the node type is [-].</span><br/><span class="rvts17">When not, then the node type is [+].</span><br/><span class="rvts17">M!Table automatically sets it when the row is expanded.</span><br/><span class="rvts17">M!Table automatically clears it when the row is collapsed or all child rows of the row are deleted.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Treeview.html">Tree view</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_HIDDEN</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The row is hidden and is - in contrast to ROW_Hidden - </span><span class="rvts27">not</span><span class="rvts17"> shown if the parent row is being expanded.</span></p>
+   <p class="rvps2"><span class="rvts17">If you set or remove this flag, ROW_Hidden is also set or removed.</span></p>
+   <p class="rvps2"><span class="rvts17">If this flag is set, ROW_Hidden can't be removed with Sal functions.</span></p>
+   <p class="rvps2"><span class="rvts17">See also: </span><a class="rvts18" href="Treeview.html">Tree view</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_NO_COLLINES</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">No column lines are painted in the row.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Customlines.html">Custom lines</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_NO_ROWLINE</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">No row line is painted in the row.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Customlines.html">Custom lines</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_NO_SORT</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">Rows with this flag are excluded from sorting.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedsorting.html">Extended sorting</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_NOSELINV_BKGND</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The backgrounds of the row's selected cells aren't inverted.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedselections.html">Extended selections</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_NOSELINV_IMAGE</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The images of the row's selected cells aren't inverted.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedselections.html">Extended selections</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_NOSELINV_TEXT</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The texts of the row's selected cells aren't inverted.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedselections.html">Extended selections</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_PAGEBREAK</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">When M!Table finds a row with this flag while printing, the next rows ( if any ) are printed on a new page.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Printing.html">Printing</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_READ_ONLY</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">Makes all cells of a row read only.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Readonly.html">Read only</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_TXTALIGN_BOTTOM</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The texts/checkboxes of the row's cells are bottom aligned.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedtextalignment.html">Extended text alignment</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_TXTALIGN_CENTER</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The texts/checkboxes of the row's cells are centered.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedtextalignment.html">Extended text alignment</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_TXTALIGN_LEFT</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The texts/checkboxes of the row's cells are left aligned.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedtextalignment.html">Extended text alignment</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_TXTALIGN_RIGHT</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The texts/checkboxes of the row's cells are right aligned.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedtextalignment.html">Extended text alignment</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_TXTALIGN_TOP</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The texts/checkboxes of the row's cells are top aligned.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedtextalignment.html">Extended text alignment</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 206px;">
+   <p class="rvps2"><span class="rvts17">MTBL_ROW_TXTALIGN_VCENTER</span></p>
+  </td>
+  <td style="border-width : 1px; border-style: inset; padding: 1px; vertical-align: top; width: 386px;">
+   <p class="rvps2"><span class="rvts17">The texts/checkboxes of the row's cells are centered vertical.</span><br/><span class="rvts17">See also: </span><a class="rvts18" href="Extendedtextalignment.html">Extended text alignment</a><span class="rvts17">.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps4"><span class="rvts15"><br/></span></p>
+<p class="rvps4"><span class="rvts16">See also</span><br/><a class="rvts29" href="MTblSetRowFlags.html">MTblSetRowFlags</a><br/><a class="rvts29" href="MTblQueryRowFlags.html">MTblQueryRowFlags</a></p>
+<p class="rvps6"><span class="rvts17">&nbsp;</span><span class="rvts6"></span></p>
+<p class="rvps7" style="clear: both;"><span class="rvts21">Created with the Personal Edition of HelpNDoc: </span><a class="rvts22" href="https://www.helpndoc.com/feature-tour">Easily create EBooks</a></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; 2002-2024, MICSTO</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.7.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.11/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script src="_topic_init.js"></script>
+
+
+
+</body>
+
+</html>
+

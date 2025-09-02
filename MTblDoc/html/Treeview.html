@@ -1,0 +1,288 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 9.9.0.637">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Tree view</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tree view">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Tree view" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="M!Table 3.5.0 Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>M!Table 3.5.0 Help</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close" role="presentation"> 
+        <button class="hnd-toggle btn btn-default" aria-label="close">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." aria-label="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit" aria-label="Search...">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="Treeview"
+		  data-hnd-context="32"
+		  data-hnd-title="Tree view"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li>Main Features</li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="Tooltips.html" title="Tooltips" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="UniquerowIDs.html" title="Unique row ID's" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Tree view</h2>
+
+            <div class="main-content">
+                
+<p class="rvps5"><span class="rvts15">Tree view</span></p>
+<p class="rvps6"><span class="rvts17">With M!Table you can implement tree view functionality.</span><br/><span class="rvts17">You can build a row hierarchy and browse it with the look &amp; feel of a tree view:</span></p>
+<p class="rvps6"><img alt="" style="width : 183px; height : 338px; vertical-align: bottom;" src="lib/NewItem24.gif"></p>
+<p class="rvps5"><span class="rvts16">Functions</span><br/><a class="rvts18" href="MTblDefineTree.html">MTblDefineTree</a><span class="rvts17"> / </span><a class="rvts18" href="MTblQueryTree.html">MTblQueryTree</a><br/><a class="rvts18" href="MTblSetTreeFlags.html">MTblSetTreeFlags</a><span class="rvts17"> / </span><a class="rvts18" href="MTblQueryTreeFlags.html">MTblQueryTreeFlags</a><br/><a class="rvts18" href="MTblDefineTreeLines.html">MTblDefineTreeLines</a><span class="rvts17"> / </span><a class="rvts18" href="MTblQueryTreeLines.html">MTblQueryTreeLines</a><br/><a class="rvts18" href="MTblSetTreeNodeColors.html">MTblSetTreeNodeColors</a><span class="rvts17"> / </span><a class="rvts18" href="MTblGetTreeNodeColors.html">MTblGetTreeNodeColors</a><br/><span class="rvts17"></span><br/><a class="rvts18" href="MTblInsertChildRow.html">MTblInsertChildRow</a><br/><a class="rvts18" href="MTblSetParentRow.html">MTblSetParentRow</a><span class="rvts17"> / </span><a class="rvts18" href="MTblGetParentRow.html">MTblGetParentRow</a><span class="rvts17"> / </span><a class="rvts19" href="MTblGetOrigParentRow.html">MTblGetOrigParentRow</a><span class="rvts17"> / </span><a class="rvts18" href="MTblIsParentRow.html">MTblIsParentRow</a><br/><span class="rvts17"></span><br/><a class="rvts18" href="MTblGetFirstChildRow.html">MTblGetFirstChildRow</a><span class="rvts17"> / </span><a class="rvts18" href="MTblGetNextChildRow.html">MTblGetNextChildRow</a><span class="rvts17"> / </span><a class="rvts18" href="MTblGetPrevChildRow.html">MTblGetPrevChildRow</a><br/><a class="rvts18" href="MTblGetChildRowCount.html">MTblGetChildRowCount</a><br/><span class="rvts17"></span><br/><a class="rvts18" href="MTblIsRowDescOf.html">MTblIsRowDescOf</a><br/><a class="rvts18" href="MTblDeleteDescRows.html">MTblDeleteDescRows</a><br/><span class="rvts17"></span><br/><a class="rvts18" href="MTblGetRowLevel.html">MTblGetRowLevel</a><br/><span class="rvts17"></span><br/><a class="rvts18" href="MTblExpandRow.html">MTblExpandRow</a><span class="rvts17"> / </span><a class="rvts18" href="MTblCollapseRow.html">MTblCollapseRow</a><br/><span class="rvts17"></span><br/><a class="rvts18" href="MTblSortTree.html">MTblSortTree</a><br/><span class="rvts17"></span><br/><a class="rvts18" href="MTblSetCellImage.html">MTblSetCellImage</a><span class="rvts17"> / </span><a class="rvts18" href="MTblSetCellImageExp.html">MTblSetCellImageExp</a><br/><a class="rvts41" href="MTblSetNodeImages.html">MTblSetNodeImages</a><span class="rvts37"> / </span><a class="rvts39" href="MTblGetNodeImages.html">MTblGetNodeImages</a></p>
+<p class="rvps5"><span class="rvts16">Messages</span><br/><a class="rvts18" href="MTM_ExpandRow.html">MTM_ExpandRow</a><span class="rvts17"> / </span><a class="rvts18" href="MTM_ExpandRowDone.html">MTM_ExpandRowDone</a><br/><a class="rvts18" href="MTM_CollapseRow.html">MTM_CollapseRow</a><span class="rvts17"> / </span><a class="rvts18" href="MTM_CollapseRowDone.html">MTM_CollapseRowDone</a><br/><a class="rvts18" href="MTM_LoadChildRows.html">MTM_LoadChildRows</a><br/><a class="rvts41" href="MTM_QueryAutoNormHierarchy.html">MTM_QueryAutoNormHierarchy</a></p>
+<p class="rvps5"><span class="rvts16">Tree Flags</span><br/><a class="rvts18" href="Treeflags.html">Tree flags</a></p>
+<p class="rvps5"><span class="rvts16">Row flags</span><br/><a class="rvts18" href="Rowflags.html">MTBL_ROW_CANEXPAND</a><br/><a class="rvts18" href="Rowflags.html">MTBL_ROW_ISEXPANDED</a><br/><a class="rvts41" href="Rowflags.html">MTBL_ROW_HIDDEN</a></p>
+<p class="rvps5"><span class="rvts16">Table flags</span><br/><a class="rvts18" href="Tableflags.html">MTBL_FLAG_EXPAND_ROW_ON_DBLCLK</a></p>
+<hr style="height : 0px; background-color : transparent; border-width : 1px; border-style : inset; border-color : #000000;">
+<p class="rvps5"><span class="rvts16">Hints and tips</span></p>
+<p class="rvps6"><span class="rvts16">Building a tree</span><br/><span class="rvts17">If you want to use a tree, of course you have to build it first.</span><br/><span class="rvts17">For that purpose you have to define a row hierarchy. More precisely you have to define parent-child relationships between rows. The primary function to achieve this is </span><a class="rvts18" href="MTblSetParentRow.html">MTblSetParentRow</a><span class="rvts17">.</span><br/><span class="rvts17">Imagine you have two rows - row 0 and 1 - and you want that row 0 becomes the parent of row 1, you have to do the following:</span></p>
+<p class="rvps6"><span class="rvts34">Call MTblSetParentRow( hWndTbl, 1, 0, MTSPR_REDRAW )</span></p>
+<p class="rvps6"><span class="rvts17">Row 0 is now the parent of row 1 - or in other words - row 1 is now a child of row 0.</span><br/><span class="rvts17">Now imagine there is a third row - row 2 - and you want that row 0 also becomes the parent of row 2:</span></p>
+<p class="rvps6"><span class="rvts34">Call MTblSetParentRow( hWndTbl, 2, 0, MTSPR_REDRAW )</span></p>
+<p class="rvps6"><span class="rvts17">Row 0 is now the parent of row 1 and 2.</span><br/><span class="rvts17">Finally there is another row - row 3 - and you want that row 2 becomes the parent of row 3:</span></p>
+<p class="rvps6"><span class="rvts34">Call MTblSetParentRow( hWndTbl, 3, 2, MTSPR_REDRAW )</span></p>
+<p class="rvps6"><span class="rvts17">Now we have the following hierarchy:</span></p>
+<p class="rvps6"><span class="rvts34">Row 0</span><br/><span class="rvts34">&nbsp; Row 1</span><br/><span class="rvts34">&nbsp; Row 2</span><br/><span class="rvts34">&nbsp; &nbsp; Row 3</span></p>
+<p class="rvps6"><span class="rvts17">Row 0 is the parent of row 1 and 2 - or in other words - row 1 and 2 are childs of row 0.</span><br/><span class="rvts17">Row 2 is the parent of row 3 - or in other words - row 3 is a child of row 2.</span><br/><span class="rvts17">And: Row 1, 2 and 3 are </span><span class="rvts56">descendant</span><span class="rvts17"> of row 0 and row 3 is </span><span class="rvts56">descendant</span><span class="rvts17"> of row 2.</span></p>
+<p class="rvps6"><span class="rvts17">Of course </span><a class="rvts18" href="MTblSetParentRow.html">MTblSetParentRow</a><span class="rvts17"> requires that the rows already exist. To add a new row as a child of an existing row, </span><a class="rvts18" href="MTblInsertChildRow.html">MTblInsertChildRow</a><span class="rvts17"> can be used.</span><br/><span class="rvts17">Let's see the differences:</span></p>
+<p class="rvps6"><span class="rvts34">! Using MTblSetParentRow</span><br/><span class="rvts34">Set nRow0 = SalTblInsertRow( hWndTbl, TBL_MaxRow )</span><br/><span class="rvts34">Set nRow1 = SalTblInsertRow( hWndTbl, TBL_MaxRow )</span><br/><span class="rvts34">Call MTblSetParentRow( hWndTbl, nRow1, nRow0, MTSPR_REDRAW )</span><br/><span class="rvts34">Set nRow2 = SalTblInsertRow( hWndTbl, TBL_MaxRow )</span><br/><span class="rvts34">Call MTblSetParentRow( hWndTbl, nRow2, nRow1, MTSPR_REDRAW )</span><br/><span class="rvts34">Set nRow3 = SalTblInsertRow( hWndTbl, TBL_MaxRow )</span><br/><span class="rvts34">Call MTblSetParentRow( hWndTbl, nRow3, nRow2, MTSPR_REDRAW )</span><br/><span class="rvts34">! Using MTblInsertChildRow</span><br/><span class="rvts34">Set nRow0 = SalTblInsertRow( hWndTbl, TBL_MaxRow )</span><br/><span class="rvts34">Set nRow1 = MTblInsertChildRow( hWndTbl, nRow0, MTICR_REDRAW )</span><br/><span class="rvts34">Set nRow2 = MTblInsertChildRow( hWndTbl, nRow0, MTICR_REDRAW )</span><br/><span class="rvts34">Set nRow3 = MTblInsertChildRow( hWndTbl, nRow2, MTICR_REDRAW )</span></p>
+<p class="rvps6"><span class="rvts16">Visualizing a tree</span><br/><span class="rvts17">In "Building a tree" merely the logical row hierarchy was defined, but of course we want that our tree looks like in a tree view.</span><br/><span class="rvts17">To achive this, first of all we have to call </span><a class="rvts18" href="MTblDefineTree.html">MTblDefineTree</a><span class="rvts17"> to define the tree column, the node size and the indention:</span></p>
+<p class="rvps6"><span class="rvts34">Call MTblDefineTree( hWndTbl, hWndCol, 8, 16 )</span></p>
+<p class="rvps6"><img alt="" style="width : 139px; height : 81px; vertical-align: bottom;" src="lib/NewItem23.gif"></p>
+<p class="rvps6"><span class="rvts17">Not bad, but where are the tree lines? No problem, call </span><a class="rvts18" href="MTblDefineTreeLines.html">MTblDefineTreeLines</a><span class="rvts17"> to show them:</span></p>
+<p class="rvps6"><span class="rvts34">Call MTblDefineTreeLines( hWndTbl, MTLS_DOT, COLOR_DarkGray )</span></p>
+<p class="rvps6"><img alt="" style="width : 139px; height : 81px; vertical-align: bottom;" src="lib/NewItem22.gif"></p>
+<p class="rvps6"><span class="rvts17">Hmm, the tree nodes don't really look like in a tree view. Let's modify them with </span><a class="rvts18" href="MTblSetTreeNodeColors.html">MTblSetTreeNodeColors</a><span class="rvts17">:</span></p>
+<p class="rvps6"><span class="rvts34">Call MTblSetTreeNodeColors( hWndTbl, COLOR_DarkGray, COLOR_Black, COLOR_White )</span></p>
+<p class="rvps6"><img alt="" style="width : 139px; height : 81px; vertical-align: bottom;" src="lib/NewItem21.gif"></p>
+<p class="rvps6"><span class="rvts17">Quite good, but the row lines are really bothering. So get rid of them with </span><a class="rvts18" href="MTblSetTreeFlags.html">MTblSetTreeFlags</a><span class="rvts17">:</span></p>
+<p class="rvps6"><span class="rvts34">Call MTblSetTreeFlags( hWndTbl, MTBL_TREE_FLAG_NO_ROWLINES, TRUE )</span></p>
+<p class="rvps6"><img alt="" style="width : 139px; height : 81px; vertical-align: bottom;" src="lib/NewItem20.gif"></p>
+<p class="rvps6"><span class="rvts17">Finally, let's load some images with M!Image and set them with </span><a class="rvts18" href="MTblSetCellImage.html">MTblSetCellImage</a><span class="rvts17"> and </span><a class="rvts18" href="MTblSetCellImageExp.html">MTblSetCellImageExp</a><span class="rvts17"> :</span></p>
+<p class="rvps6"><span class="rvts34">Set nImgFolder = MImgLoadFromFile( ... )</span><br/><span class="rvts34">Set nImgOpenFolder = MImgLoadFromFile( ... )</span><br/><span class="rvts34">Set nImgItem = MImgLoadFromFile( ... )</span><br/><span class="rvts34">Call MTblSetCellImage( hWndCol, 0, nImgFolder, MTSI_REDRAW )</span><br/><span class="rvts34">Call MTblSetCellImageExp( hWndCol, 0, nImgOpenFolder, MTSI_REDRAW )</span><br/><span class="rvts34">Call MTblSetCellImage( hWndCol, 1, nImgItem, MTSI_REDRAW )</span><br/><span class="rvts34">Call MTblSetCellImage( hWndCol, 2, nImgFolder, MTSI_REDRAW )</span><br/><span class="rvts34">Call MTblSetCellImageExp( hWndCol, 2, nImgOpenFolder, MTSI_REDRAW )</span><br/><span class="rvts34">Call MTblSetCellImage( hWndCol, 3, nImgItem, MTSI_REDRAW )</span></p>
+<p class="rvps6"><img alt="" style="width : 139px; height : 81px; vertical-align: bottom;" src="lib/NewItem19.gif"></p>
+<p class="rvps6"><span class="rvts17">Oh yes, now our tree looks like in a tree view!</span><span class="rvts6"></span></p>
+<p class="rvps7" style="clear: both;"><span class="rvts21">Created with the Personal Edition of HelpNDoc: </span><a class="rvts22" href="https://www.helpndoc.com/feature-tour/stunning-user-interface/">Effortlessly Create Professional Documentation with HelpNDoc's Clean UI</a></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; 2002-2024, MICSTO</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.7.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.11/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script src="_topic_init.js"></script>
+
+
+
+</body>
+
+</html>
+

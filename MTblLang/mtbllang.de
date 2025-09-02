@@ -1,0 +1,82 @@
+; M!Table language file GERMAN
+[Printing]
+; ***General***
+DefPageNr = Seite %PAGENR%
+
+; ***Status dialog***
+StatDlg.Title = Druckstatus
+StatDlg.Text = Seite %d wird gedruckt..
+StatDlg.BtnCancel = &Abbrechen
+
+; ***Preview window***
+; *Titlebar*
+PrevWnd.DefCaption = Druckvorschau
+
+; *Toolbar*
+PrevWnd.BtnClose = &Schließen
+PrevWnd.BtnPrint = &Drucken
+PrevWnd.BtnPrint.MenuItem.All = Alle
+PrevWnd.BtnPrint.MenuItem.CurrPage = Aktuelle Seite
+PrevWnd.BtnScale = S&kalierung
+PrevWnd.BtnScale.MenuItem.UserDef = Benutzerdefiniert
+PrevWnd.BtnScale.MenuItem.ToPageWid = Auf Seitenbreite
+PrevWnd.BtnFullPage = &Ganze Seite
+PrevWnd.BtnFirstPage = &Erste Seite
+PrevWnd.BtnPrevPage = &Vorherige Seite
+PrevWnd.BtnNextPage = &Nächste Seite
+PrevWnd.BtnLastPage = &Letzte Seite
+
+; *Statusbar*
+PrevWnd.StatBar.CurrPage = Seite %d von %s
+PrevWnd.StatBar.CurrScale = Skalierung: %s %%
+PrevWnd.StatBar.CreatePage = Erzeuge Seite %d
+
+; *Messages*
+PrevWnd.Msg.Scale.Title = Skalierung
+PrevWnd.Msg.Scale.GoToFirstPage.Text = Zum Skalieren muß zur ersten Seite gegangen werden. Möchten Sie fortfahren?
+PrevWnd.Msg.Scale.InvValue.Text = Ungültiger Wert.
+PrevWnd.Msg.Scale.Input.Text = Bitte geben Sie die Skalierung in % ein
+PrevWnd.Msg.Scale.Input.BtnOk = Ok
+PrevWnd.Msg.Scale.Input.BtnCancel = Abbrechen
+PrevWnd.Msg.Scale.MaxScaleExceeded.Text = Die Skalierung auf Seitenbreite würde die max. Skalierung von %s %% überschreiten. Möchten Sie stattdessen auf %s %% skalieren?
+
+[Export]
+; ***Status dialog***
+StatDlg.Title = Status Export
+StatDlg.BtnCancel = &Abbrechen
+StatDlg.Text.Init = Initialisierung...
+StatDlg.Text.OpenTempl = Vorlagendatei wird geöffnet...
+StatDlg.Text.QueryCols = Zu exportierende Spalten werden ermittelt...
+StatDlg.Text.ExpColHdrs = Spaltenköpfe werden exportiert...
+StatDlg.Text.GetData = Daten werden ermittelt...
+StatDlg.Text.GetDataProgr = Daten werden ermittelt... ( %d Zeilen verarbeitet )
+StatDlg.Text.InsData = Daten werden eingefügt...
+StatDlg.Text.Format = Formatierungen werden durchgeführt...
+StatDlg.Text.SaveFile = Datei wird gespeichert...
+StatDlg.Text.CloseWBook = Arbeitsmappe wird geschlossen...
+StatDlg.Text.CloseInst = Instanz wird geschlossen...
+
+; ***Errors***
+Error.CopyToClipboard = Fehler beim Kopieren in die Zwischenablage.
+Error.CopyToClipboard.Open = Fehler beim Kopieren in die Zwischenablage: Zwischenablage konnte nicht geöffnet werden.
+Error.CopyToClipboard.Alloc = Fehler beim Kopieren in die Zwischenablage: Globales Speicherobjekt konnte nicht alloziert werden.
+Error.CopyToClipboard.SetData = Fehler beim Kopieren in die Zwischenablage: Daten konnten nicht gesetzt werden.
+Error.GetFontInfo = Fehler beim Ermitteln von Schriftartinformationen.
+Error.GetObject = Fehler beim Ermitteln eines Objektes.
+Error.GetStartCell = Fehler beim Ermitteln der Ausgangszelle.
+Error.InsertSheet = Fehler beim Einfügen einer Tabelle.
+Error.SaveClipboard = Fehler beim Sichern der Zwischenablage.
+Error.SaveClipboard.Open = Fehler beim Sichern der Zwischenablage: Zwischenablage konnte nicht geöffnet werden.
+Error.Unknown = Es ist ein unbekannter Fehler aufgetreten.
+
+; ***Exceptions***
+Exception.ErrorCode = Fehler-Nr.:
+Exception.OleDispatch.Unknown = Es ist eine unbekannte OLE-Dispatch-Ausnahme aufgetreten.
+Exception.Ole.Unknown = Es ist eine unbekannte OLE-Ausnahme aufgetreten.
+Exception.Unknown = Es ist eine unbekannte Ausnahme aufgetreten.
+Exception.Msg.Title.Excel = Excel Export - Ausnahme
+Exception.Msg.Title.OOCalc = Open Office Calc Export - Ausnahme
+Exception.Msg.Title.Default = Export - Ausnahme
+
+; ***Open Office Calc***
+OOCalc.NewSheet.Name = Tabelle

@@ -1,0 +1,82 @@
+; M!Table language file ENGLISH
+[Printing]
+; ***General***
+DefPageNr = Page %PAGENR%
+
+; ***Status dialog***
+StatDlg.Title = Print status
+StatDlg.Text = Printing page %d...
+StatDlg.BtnCancel = &Cancel
+
+; ***Preview window***
+; *Titlebar*
+PrevWnd.DefCaption = Print preview
+
+; *Toolbar*
+PrevWnd.BtnClose = &Close
+PrevWnd.BtnPrint = P&rint
+PrevWnd.BtnPrint.MenuItem.All = All
+PrevWnd.BtnPrint.MenuItem.CurrPage = Current Page
+PrevWnd.BtnScale = &Scaling
+PrevWnd.BtnScale.MenuItem.UserDef = User defined
+PrevWnd.BtnScale.MenuItem.ToPageWid = To Page Width
+PrevWnd.BtnFullPage = F&ull Page
+PrevWnd.BtnFirstPage = &First Page
+PrevWnd.BtnPrevPage = &Previous Page
+PrevWnd.BtnNextPage = &Next Page
+PrevWnd.BtnLastPage = &Last Page
+
+; *Statusbar*
+PrevWnd.StatBar.CurrPage = Page %d of %s
+PrevWnd.StatBar.CurrScale = Scaling: %s %%
+PrevWnd.StatBar.CreatePage = Creating page %d
+
+; *Messages*
+PrevWnd.Msg.Scale.Title = Scaling
+PrevWnd.Msg.Scale.GoToFirstPage.Text = For scaling it must be gone to the first page. Do you like to continue?
+PrevWnd.Msg.Scale.InvValue.Text = Invalid value.
+PrevWnd.Msg.Scale.Input.Text = Please enter the scaling in %
+PrevWnd.Msg.Scale.Input.BtnOk = Ok
+PrevWnd.Msg.Scale.Input.BtnCancel = Cancel
+PrevWnd.Msg.Scale.MaxScaleExceeded.Text = Scaling to page width would exceed the max. scaling of %s %%. Do you like to scale to %s %% instead?
+
+[Export]
+; ***Status dialog***
+StatDlg.Title = Status Export
+StatDlg.BtnCancel = &Cancel
+StatDlg.Text.Init = Initializing...
+StatDlg.Text.OpenTempl = Opening template file...
+StatDlg.Text.QueryCols = Columns to export are queried...
+StatDlg.Text.ExpColHdrs = Exporting column headers...
+StatDlg.Text.GetData = Getting data...
+StatDlg.Text.GetDataProgr = Getting data... ( %d rows processed )
+StatDlg.Text.InsData = Inserting data...
+StatDlg.Text.Format = Performing formatting...
+StatDlg.Text.SaveFile = Saving file...
+StatDlg.Text.CloseWBook = Closing workbook...
+StatDlg.Text.CloseInst = Closing instance...
+
+; ***Errors***
+Error.CopyToClipboard = Error while copying to clipboard.
+Error.CopyToClipboard.Open = Error while copying to clipboard: Could not open clipboard.
+Error.CopyToClipboard.Alloc = Error while copying to clipboard: Could not allocate global memory object.
+Error.CopyToClipboard.SetData = Error while copying to clipboard: Could not set data.
+Error.GetFontInfo = Error while getting font information.
+Error.GetObject = Error while getting an object.
+Error.GetStartCell = Error while getting the start cell.
+Error.InsertSheet = Error while inserting a sheet.
+Error.SaveClipboard = Error while saving clipboard data.
+Error.SaveClipboard.Open = Error while saving clipboard data: Could not open clipboard.
+Error.Unknown = An unknown error occured.
+
+; ***Exceptions***
+Exception.ErrorCode = Error Code:
+Exception.OleDispatch.Unknown = An unknown OLE dispatch exception occured.
+Exception.Ole.Unknown = An unknown OLE exception occured.
+Exception.Unknown = An unknown exception occured.
+Exception.Msg.Title.Excel = Excel Export - Exception
+Exception.Msg.Title.OOCalc = Open Office Calc Export - Exception
+Exception.Msg.Title.Default = Export - Exception
+
+; ***Open Office Calc***
+OOCalc.NewSheet.Name = Sheet
