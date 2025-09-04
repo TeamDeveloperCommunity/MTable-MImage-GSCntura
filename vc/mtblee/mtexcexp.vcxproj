@@ -344,7 +344,7 @@
     <Keyword>MFCProj</Keyword>
     <ProjectGuid>{6F2FF7F6-DE75-485F-84E6-4B0B88C9529B}</ProjectGuid>
     <ProjectName>mtblee</ProjectName>
-    <WindowsTargetPlatformVersion>7.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release TD60|Win32'" Label="Configuration">
@@ -1782,7 +1782,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl15.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -1819,7 +1819,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl15.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -1857,7 +1857,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl11.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -1894,7 +1894,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl11.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -1935,7 +1935,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl62.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -1974,7 +1974,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl62.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2015,7 +2015,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl63.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2054,7 +2054,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl63.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2095,7 +2095,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl70.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2136,7 +2136,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl71.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2177,7 +2177,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl72.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2218,7 +2218,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl73.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2259,7 +2259,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl74.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2300,7 +2300,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl75.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2573,7 +2573,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl21.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2610,7 +2610,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl21.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2648,7 +2648,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2685,7 +2685,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2726,7 +2726,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl61.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2765,7 +2765,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl61.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2806,7 +2806,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl60.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2845,7 +2845,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl60.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2886,7 +2886,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl52.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2925,7 +2925,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl52.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -2966,7 +2966,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3005,7 +3005,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3046,7 +3046,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl42.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3085,7 +3085,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl42.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3126,7 +3126,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl41.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3165,7 +3165,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl41.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3206,7 +3206,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl40.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3245,7 +3245,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl40.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3286,7 +3286,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl31.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3325,7 +3325,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl31.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3366,7 +3366,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl30.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3405,7 +3405,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl30.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3446,7 +3446,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl21.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3485,7 +3485,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl21.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3526,7 +3526,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3565,7 +3565,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3607,7 +3607,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl15.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3647,7 +3647,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl15.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3688,7 +3688,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl11.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3727,7 +3727,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl11.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3765,7 +3765,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl31.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3802,7 +3802,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl31.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3840,7 +3840,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl30.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3877,7 +3877,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl30.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3915,7 +3915,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl42.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3952,7 +3952,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl42.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -3990,7 +3990,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl41.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4027,7 +4027,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl41.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4065,7 +4065,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl40.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4102,7 +4102,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl40.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4140,7 +4140,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl52.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4177,7 +4177,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl52.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4215,7 +4215,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4252,7 +4252,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4290,7 +4290,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl62.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4327,7 +4327,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl62.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4365,7 +4365,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl63.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4402,7 +4402,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl63.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4440,7 +4440,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl70.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4478,7 +4478,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl71.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4516,7 +4516,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl72.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4554,7 +4554,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl73.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4592,7 +4592,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl74.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4630,7 +4630,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl75.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4890,7 +4890,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl61.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4927,7 +4927,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl61.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -4965,7 +4965,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl60.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
@@ -5002,7 +5002,7 @@
       <LinkDLL>true</LinkDLL>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\MTbl\$(Configuration)\$(PlatformArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mtbl60.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mtbl$(TDVersion).lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\mtexcexp.def</ModuleDefinitionFile>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
